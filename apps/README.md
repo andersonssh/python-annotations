@@ -1,3 +1,4 @@
 # APPS
 
-Apps para treinar novos conhecimentos adquiridos.
+Pasta destinada a armazenar apps criados 
+para treinar novos conhecimentos adquiridos.

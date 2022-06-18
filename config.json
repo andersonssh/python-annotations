@@ -1,0 +1,27 @@
+{
+  "apps": {
+    "readme": true,
+    "quick_notes": false,
+    "references": true
+  },
+  "concepts": {
+    "readme": true,
+    "quick_notes": false,
+    "references": true
+  },
+  "functions": {
+    "readme": false,
+    "quick_notes": true,
+    "references": true
+  },
+  "quick_tests": {
+    "readme": false,
+    "quick_notes": true,
+    "references": false
+  },
+  "default": {
+    "readme": true,
+    "quick_notes": true,
+    "references": true
+  }
+}

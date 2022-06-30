@@ -68,11 +68,16 @@ def _create_structure(main_theme: str, subject: str, config: dict) -> bool:
         path_to_new_notes = os.path.join(path_to_main_theme, suggestion_subject_name)
 
     os.mkdir(path_to_new_notes)
+    with open(os.path.join(path_to_new_notes, subject + '_1.py'), 'w') as f:
+        f.write(
+            f'''"""{subject}""""
+            '''
+        )
 
     if config.get('readme') is True:
         with open(os.path.join(path_to_new_notes, 'README.md'), 'w') as f:
             f.write(
-                f"#{subject}"
+                f"# {subject}"
             )
         print('README.md criado!')
 

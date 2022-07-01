@@ -1,0 +1,3 @@
+validando uma URI atraves do parametro format de jsonschema. Inicialmente o parametro "format" é apenas de anotação,
+mas configurando ele na funcao validate e instalando a lib rfc3987 (validacao de URI), o format passa a validar
+o json, recusando URI's invalidas!
